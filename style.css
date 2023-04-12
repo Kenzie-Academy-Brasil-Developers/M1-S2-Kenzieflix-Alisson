@@ -1,0 +1,39 @@
+
+/*text-align e text-ident*/
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 30px;
+}
+
+nav{
+    display: inline-block;
+    align-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+}
+
+nav:hover{
+    background-color: blue ;
+}
+button{
+    font-size: 30px;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+button:focus{
+    border-color: blue;
+}
